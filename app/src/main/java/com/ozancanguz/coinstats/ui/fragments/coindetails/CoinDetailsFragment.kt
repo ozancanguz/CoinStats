@@ -6,8 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.ozancanguz.coinstats.databinding.FragmentCoinDetailsBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class CoinDetailsFragment : Fragment() {
 
     private var _binding: FragmentCoinDetailsBinding? = null
